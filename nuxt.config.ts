@@ -51,11 +51,8 @@ export default defineNuxtConfig({
     strategy: 'no_prefix',
     defaultLocale: 'zh',
   },
-  build: {
-    nitro: {
-      vercel: {
+  nitro: {
+    vercel: {
         regions: ["cle1", "iad1", "pdx1", "sfo1", "sin1", "syd1", "hnd1", "kix1"]
-      }
     }
-  }
-})
+}
